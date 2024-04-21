@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aquamarine;
+  background-image: url(./gallery/paiting.jpg);
 }
 
 .title {
@@ -23,28 +23,33 @@ body {
 }
 
 .form {
-  width: 650px;
+  width: 500px;
   height: auto;
-  padding: 20px 10px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background-color: bisque;
-  border: 2px ridge goldenrod;
+  background-color: #ffffffe8;
+  border: 4px ridge goldenrod;
 }
 
 .line {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 10px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   gap: 2px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .checkbox-question {
